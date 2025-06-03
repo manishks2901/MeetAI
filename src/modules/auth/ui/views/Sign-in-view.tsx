@@ -175,7 +175,7 @@ export const SignInView = () => {
             </form>
           </Form>
 
-          <div className="bg-radial from-green-700 to-green-900 relative hidden md:flex flex-col gap-y-4 items-center justify-center">
+          <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col gap-y-4 items-center justify-center">
             <img src="/logo.svg" alt="Image" className="h-[92px] w-[92px]" />
             <p className="text-2xl font-semibold text-white">MEET.AI</p>
           </div>
@@ -183,7 +183,7 @@ export const SignInView = () => {
       </Card>
       <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
         By clicking continue , you agree to out{" "}
-        <a href="#">Terms of Service </a> and <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service </a> and <a href="#">Privacy Policy</a> 
       </div>
     </div>
   );
